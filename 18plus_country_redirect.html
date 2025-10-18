@@ -1,0 +1,170 @@
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitUHaX2TB2tJp0252fOMvSRmFPotovLAjs4rqqAwUxEnEpU8BGOHjAYmDeX4QBi9z7b4YQJmZCHn0V9TLJ7plMmNuIpHZiZ3jPzYHax7V5WU0ESDW-5vCdlmfpWSFbluJ-3uA-FWga5zzb9aJ4_ryfDld8QvYV-GHlpokHraLgLAD3AXKaiBcgw-DhdNsk/s259/images%20%284%29.jpeg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="320" data-original-height="259" data-original-width="194" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitUHaX2TB2tJp0252fOMvSRmFPotovLAjs4rqqAwUxEnEpU8BGOHjAYmDeX4QBi9z7b4YQJmZCHn0V9TLJ7plMmNuIpHZiZ3jPzYHax7V5WU0ESDW-5vCdlmfpWSFbluJ-3uA-FWga5zzb9aJ4_ryfDld8QvYV-GHlpokHraLgLAD3AXKaiBcgw-DhdNsk/s320/images%20%284%29.jpeg"/></a></div>
+
+<style>
+/* CSS Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#hidden-thumbnail-image {
+    position: absolute;
+    left: -9999px; 
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+#age-gate-container {
+    background-color: #ffe0e0;
+    border: 5px solid #ff0000;
+    padding: 30px;
+    text-align: center;
+    max-width: 650px; 
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+#warning-section h3 {
+    font-size: 2.5em; 
+    color: #cc0000;
+    margin-bottom: 20px;
+}
+#warning-section p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+#age-gate-button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px #0056b3;
+}
+#age-gate-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 2px #0056b3;
+}
+#content-container {
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    text-align: center;
+    max-width: 650px; 
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+#timer-section {
+    padding: 20px;
+    background-color: #fff;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+}
+#timer-text {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+#timer {
+    font-size: 3em;
+    color: #ff0000;
+    font-weight: bold;
+}
+#country-selection {
+    margin-top: 20px;
+}
+#main-cta-button {
+    background-color: #e040fb; 
+    color: white;
+    border: none;
+    padding: 25px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 1.8em; 
+    font-weight: bolder;
+    box-shadow: 0 6px #af00c8;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+#main-cta-button:hover {
+    background-color: #af00c8;
+    box-shadow: 0 3px #af00c8;
+}
+.country-button {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 20px 15px;
+    margin: 10px 0; 
+    cursor: pointer;
+    border-radius: 10px; 
+    width: 100%;
+    font-size: 1.3em; 
+    font-weight: bold;
+    box-shadow: 0 5px #1e7e34;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.country-button:hover {
+    background-color: #1e7e34;
+    box-shadow: 0 2px #1e7e34;
+}
+.hidden {
+    display: none;
+}
+</style>
+
+<div id="hidden-thumbnail-image">
+    <img src="" alt="Hidden Thumbnail" />
+</div>
+<div id="main-content-wrapper">
+    <div id="age-gate-container">
+        <div id="warning-section">
+            <h3>🚨 ১৮+ কন্টেন্ট সতর্কতা 🚨</h3>
+            <p>এই পেজটিতে প্রাপ্তবয়স্কদের জন্য কন্টেন্ট থাকতে পারে। আপনার বয়স যদি ১৮ বছর বা তার বেশি হয় তবেই প্রবেশ করুন।</p>
+            <button id="age-gate-button" onclick="acceptWarning()">আমি ১৮ বছর বা তার বেশি বয়সী</button>
+        </div>
+    </div>
+    <div id="content-container" class="hidden">
+        <div id="timer-section">
+            <div id="timer-text">অপেক্ষা করুন... লিঙ্ক তৈরি হচ্ছে</div>
+            <div id="timer">৫</div>
+        </div>
+        <div id="country-selection" class="hidden">
+            <button id="main-cta-button" onclick="redirectToLink('https://www.effectivegatecpm.com/r2u4b7w27?key=8f496fa6ff37b5a7148b45c225e7b110')">
+                আপনি যে দেশের ভিডিও দেখতে চান সে দেশটি নির্বাচন করুন:
+            </button> 
+        </div>
+    </div>
+</div>
+
+<script>
+function acceptWarning() {
+    document.getElementById('age-gate-container').classList.add('hidden');
+    document.getElementById('content-container').classList.remove('hidden');
+    startTimer(5); 
+}
+function startTimer(duration) {
+    let timerElement = document.getElementById('timer');
+    let timer = duration;
+    let countdown = setInterval(function () {
+        timerElement.textContent = timer;
+        if (--timer < 0) {
+            clearInterval(countdown);
+            document.getElementById('timer-section').classList.add('hidden');
+            document.getElementById('country-selection').classList.remove('hidden');
+        }
+    }, 1000);
+}
+function redirectToLink(url) {
+    window.open(url, '_blank');
+}
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('content-container').classList.add('hidden'); 
+});
+</script>
